@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+html{
+    /*background-image: url(../images/snow-covered-mountain-during-sunrise-618833.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-size:  cover;*/
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    height: 180px;
+    background-color: #333;
+    margin-bottom: 8px;
+}
+* {
+    /*color: rgb(0,0, 0);*/
+    /*color: rgb(0,0, 0, 0.4);
+    
+    /*color: #000000;*/
+    /*color: #ffffff;
+    color: #000;*/
+}
+
+p {
+    color: #5d5d5d;
+  
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    
+}
+th {
+   
+    background:#4285f4;
+    color: #fff;
+      
+}
+
+th,td {
+    padding: 8px;
+}
+.column-1 {
+    text-align:  left;
+}
+.column-2 {
+    text-align: right;
+}
+/*tr:hover {
+    background-color: #f9f9f9;
+}*/
+/* hover is the pesudo-class
+ when mouse pointer  on it*/
+
+
+/*tr:hover td {
+   
+    color: white;
+    font-size: 2em;
+    
+}*/
+.odd-row{
+    background-color:#f9f9f9;
+
+}
+.sidebar-heading{
+    text-transform:  uppercase;
+}
+
+a {
+    /*display: block;*/
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul a:link,
+ul a:visited
+{
+    text-transform:  uppercase;
+    color:#57ad68;
+    text-decoration: none;
+    
+
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+li {
+    padding: 10px 0 2px 3px;
+    margin: 10px;
+    display: block;
+    /* outline: 1px solid red; */
+}
+.main-content {
+    width: 66%;
+    outline: 1px solid orange;
+}
+
+.sidebar-heading {
+    width: 30%;
+    max-width: 199px;
+    outline: 1px solid red;
+}
+
+
+
